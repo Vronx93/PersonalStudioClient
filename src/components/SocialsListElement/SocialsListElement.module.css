@@ -1,0 +1,11 @@
+.link {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10%;
+	text-decoration: none;
+}
+
+.icon {
+	height: 25px;
+}

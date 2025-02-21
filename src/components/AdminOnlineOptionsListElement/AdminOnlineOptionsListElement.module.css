@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding-block: 50px;
+  padding-inline: 20px;
+  border-bottom: 1px solid rgba(153, 153, 153, 1);
+}
+
+.container:hover {
+  background: rgba(249, 230, 226, 1);
+}
+
+.title {
+  font-family: "Work Sans";
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.titleWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contentWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bold {
+  font-weight: 600;
+}

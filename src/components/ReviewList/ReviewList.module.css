@@ -1,0 +1,48 @@
+@import "../../variables.css";
+
+.container {
+  position: relative;
+  margin-top: 119px;
+  text-align: center;
+}
+
+.swiper {
+  margin-top: 5rem !important;
+  overflow: visible !important;
+}
+
+.weightBackground {
+  position: absolute;
+  top: -119px;
+  left: 153px;
+  z-index: -1;
+}
+
+@media screen and (max-width: 1119px) {
+  .container {
+    margin-top: 100px;
+  }
+
+  .swiper {
+    margin-top: 32px;
+  }
+
+  .slide {
+    display: flex !important;
+    justify-content: center;
+  }
+
+  .title {
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 700;
+    min-width: auto;
+    text-wrap: wrap;
+    text-align: center;
+    padding-inline: 20px;
+  }
+
+  .weightBackground {
+    display: none;
+  }
+}

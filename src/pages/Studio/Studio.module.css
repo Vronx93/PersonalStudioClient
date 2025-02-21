@@ -1,0 +1,17 @@
+.contactInfoContainer {
+  margin-top: 257px;
+}
+
+.historyImage {
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 1119px) {
+  .contactInfoContainer {
+    margin-top: 143px;
+  }
+
+  .historyImage {
+    border-radius: 0;
+  }
+}

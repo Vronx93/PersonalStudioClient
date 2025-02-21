@@ -1,0 +1,8 @@
+.list {
+	display: flex;
+	align-items: baseline;
+	max-width: 100%;
+	overflow-x: scroll;
+	gap: 10px;
+	list-style: none;
+}

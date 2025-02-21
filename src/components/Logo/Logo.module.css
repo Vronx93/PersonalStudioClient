@@ -1,0 +1,23 @@
+.logoLink {
+  width: fit-content;
+  text-decoration: none;
+  padding-inline: 70px;
+  z-index: 0;
+}
+
+.logo {
+  height: 100px;
+  width: 150px;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1019px) {
+  .logoLink {
+    padding-left: 4%;
+    padding-right: 1%;
+  }
+
+  .logo {
+    width: 100px;
+  }
+}

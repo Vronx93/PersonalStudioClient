@@ -1,0 +1,15 @@
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  width: 70%;
+  margin: auto;
+}
+
+@media screen and (max-width: 1439px) {
+  .list {
+    flex-direction: column;
+    gap: 41px;
+  }
+}

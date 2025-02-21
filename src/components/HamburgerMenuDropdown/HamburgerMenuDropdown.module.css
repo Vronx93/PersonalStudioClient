@@ -1,0 +1,36 @@
+.container {
+  display: grid;
+  width: 83%;
+  min-width: 100px;
+  max-width: 300px;
+  padding-left: 5%;
+  padding-right: 3%;
+  position: absolute;
+  right: 0;
+  top: 80px;
+  background: rgba(254, 251, 251, 1);
+  border-radius: 20px 0 0 20px;
+  z-index: 4;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.container a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 67px;
+  border-bottom: 1px solid rgba(238, 196, 187, 1);
+  text-decoration: none;
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-weight: 500;
+  color: rgba(26, 26, 26, 1);
+}
+
+.noBorder {
+  border: none;
+}
+
+.container a:last-of-type {
+  border: none;
+}

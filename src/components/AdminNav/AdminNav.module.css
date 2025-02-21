@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.navLink {
+  font-family: "Work Sans";
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: none;
+  color: rgba(26, 26, 26, 1);
+}
+
+.active {
+  font-family: "Work Sans";
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+}

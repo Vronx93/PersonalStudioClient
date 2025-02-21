@@ -1,0 +1,61 @@
+{
+    "title": "Regulamin",
+    "sections": [
+      {
+        "id": "generalProvisions",
+        "title": "Postanowienia ogólne",
+        "content": [
+          "Niniejszy Regulamin określa zasady korzystania z usług oferowanych przez studio treningowe kalisteniki poprzez jego stronę internetową.",
+          "Korzystanie z usług studio treningowe kalisteniki oraz zakup produktów na stronie internetowej oznacza akceptację niniejszego Regulaminu oraz Polityki Prywatności."
+        ]
+      },
+      {
+        "id": "ordersAndPayments",
+        "title": "Zamówienia i płatności",
+        "content": [
+          "Zamówienia na produkty dostępne na stronie internetowej można składać przez wypełnienie formularza zamówienia i dokonanie płatności za pomocą systemu PayU.",
+          "Studio treningowe kalisteniki zastrzega sobie prawo do odmowy realizacji zamówienia w przypadku braku możliwości jego wykonania lub wystąpienia innych uzasadnionych przyczyn."
+        ]
+      },
+      {
+        "id": "rightsAndDuties",
+        "title": "Prawa i obowiązki użytkownika",
+        "content": [
+          "Użytkownik zobowiązany jest do korzystania z usług i produktów studio treningowe kalisteniki zgodnie z obowiązującymi przepisami prawa oraz zasadami moralności.",
+          "Użytkownik zobowiązany jest do podania prawdziwych danych osobowych niezbędnych do realizacji zamówienia oraz do zachowania tajności danych logowania."
+        ]
+      },
+      {
+        "id": "personalDataProtection",
+        "title": "Ochrona danych osobowych",
+        "content": [
+          "Studio treningowe kalisteniki zobowiązuje się do ochrony danych osobowych użytkowników zgodnie z obowiązującymi przepisami prawa, w tym zgodnie z Polityką Prywatności.",
+          "Dane osobowe użytkowników są przetwarzane wyłącznie w celu realizacji zamówień i świadczenia usług, zgodnie z Polityką Prywatności."
+        ]
+      },
+      {
+        "id": "complaintsAndReturns",
+        "title": "Reklamacje i zwroty",
+        "content": [
+          "Użytkownikowi przysługuje prawo do składania reklamacji dotyczących zakupionych produktów zgodnie z obowiązującymi przepisami prawa.",
+          "Studio treningowe kalisteniki rozpatruje reklamacje zgodnie z obowiązującymi przepisami prawa i informuje użytkownika o wyniku reklamacji."
+        ]
+      },
+      {
+        "id": "finalProvisions",
+        "title": "Postanowienia końcowe",
+        "content": [
+          "Studio treningowe kalisteniki zastrzega sobie prawo do zmiany niniejszego Regulaminu w każdym czasie, z zastrzeżeniem przestrzegania obowiązujących przepisów prawa.",
+          "W sprawach nieuregulowanych niniejszym Regulaminem zastosowanie mają przepisy obowiązującego prawa polskiego."
+        ]
+      },
+      {
+        "id": "contactInformation",
+        "title": "Kontakt",
+        "content": [
+          "W przypadku pytań dotyczących Regulaminu lub świadomości naruszenia jego postanowień, prosimy o kontakt za pośrednictwem danych podanych na stronie kontaktowej."
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,9 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: baseline;
+}
+
+.productImg {
+	height: 132px;
+}

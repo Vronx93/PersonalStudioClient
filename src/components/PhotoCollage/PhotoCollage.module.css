@@ -1,0 +1,11 @@
+.container {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  list-style: none;
+}
+
+.image {
+  width: 100%;
+}

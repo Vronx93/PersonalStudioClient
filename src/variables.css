@@ -1,0 +1,30 @@
+:root {
+  /* COLORS */
+  --Base-color: rgb(0, 0, 0);
+  --Neutral-color: rgb(30, 30, 30);
+  --Primary-color: rgb(222, 222, 222);
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: local("Open Sans"),
+    url("/src/assets/fonts/OpenSans-VariableFont_wdth,wght.woff2")
+      format("woff2");
+}
+
+@font-face {
+  font-family: "Fuzzy Bubbles";
+  src: local("Fuzzy Bubbles"),
+    url("/src/assets/fonts/FuzzyBubbles-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: local("Work Sans"),
+    url("/src/assets/fonts/WorkSans-VariableFont_wght.woff2") format("woff2");
+}
+
+.fancyText {
+  font-family: "Fuzzy Bubbles";
+  color: rgba(203, 78, 50, 1);
+}

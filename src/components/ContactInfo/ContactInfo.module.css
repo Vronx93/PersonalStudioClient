@@ -1,0 +1,152 @@
+@import "../../variables.css";
+
+.mainContainer {
+  position: relative;
+  z-index: 1;
+}
+
+.container {
+  position: relative;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  background: rgba(252, 244, 243, 1);
+  z-index: 1;
+}
+
+.mapImgWrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.mapImg {
+  width: 100%;
+}
+
+.textContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 67px 175px 101px 62px;
+}
+
+.textContainer h3 {
+  margin-top: 42px;
+}
+
+.title {
+  font-family: "Open Sans";
+}
+
+.text {
+  margin-top: 56px;
+}
+
+.contactList {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 20px;
+  list-style: none;
+}
+
+.contactList li {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.pepek {
+  font-family: "Work Sans";
+}
+
+.btn {
+  margin-top: 50px;
+}
+
+.pullupsBackground {
+  position: absolute;
+  width: 13.4vw;
+  max-width: 193px;
+  right: 10%;
+  bottom: 20%;
+}
+
+.phoneNumber {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1119px) {
+  .mainContainer {
+    background: rgba(252, 244, 243, 1);
+    padding-bottom: 40px;
+  }
+
+  .title {
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 32px;
+  }
+
+  .text {
+    margin-top: 28px;
+  }
+
+  .pepek {
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .contactList li,
+  .phoneNumber {
+    gap: 10px;
+  }
+
+  .btn {
+    margin-top: 32px;
+  }
+}
+
+@media screen and (max-width: 959px) {
+  .mobileContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .mapImgWrapper {
+    width: 100%;
+    margin-top: 32px;
+  }
+
+  .title {
+    width: 100%;
+    text-align: center;
+    background: rgba(255, 250, 250, 1);
+    min-width: auto;
+    padding-inline: 5%;
+  }
+
+  .text {
+    padding-inline: 7.4%;
+  }
+
+  .contactInfoWrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 30px;
+    width: 100%;
+    padding-inline: 7.4%;
+  }
+
+  .pullupsBackground {
+    width: 17.4vw;
+    bottom: 3%;
+    right: 6%;
+  }
+}

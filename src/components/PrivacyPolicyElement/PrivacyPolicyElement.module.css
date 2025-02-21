@@ -1,0 +1,30 @@
+.contentListItem {
+  list-style: none;
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 1rem;
+}
+
+.title {
+  font-family: "Work Sans";
+  font-size: 20px;
+  font-weight: 600;
+  min-width: auto;
+}
+
+.list {
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 1119px) {
+  .title {
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .contentListItem {
+    font-size: 13px;
+  }
+}

@@ -1,0 +1,119 @@
+@import "../../variables.css";
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: -18px;
+  background: rgba(0, 0, 0, 0.3);
+  background-image: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.8) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
+.img {
+  width: 100%;
+  z-index: -1;
+}
+
+.textContent {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  color: rgba(252, 244, 243, 1);
+  top: 58%;
+  z-index: 1;
+}
+
+.textContent > p {
+  z-index: 1;
+}
+
+.title {
+  font-family: "Open Sans";
+  letter-spacing: normal;
+}
+
+.text {
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(252, 244, 243, 1);
+}
+
+.btn {
+  position: absolute;
+  display: flex;
+  gap: 8px;
+  background: transparent;
+  right: 8.7%;
+  bottom: 10%;
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(217, 217, 217, 1);
+  z-index: 0;
+  box-shadow: none;
+}
+
+.btn:hover,
+.btn:active {
+  background: transparent;
+  box-shadow: none;
+  scale: 1.1;
+}
+
+@media screen and (max-width: 1119px) {
+  .title {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .text {
+    font-size: 13px;
+    font-weight: 400;
+  }
+
+  .textContent {
+    gap: 16px;
+  }
+
+  .btn {
+    gap: 8px;
+    right: 8.7%;
+    bottom: 10%;
+    font-size: 13px;
+    font-weight: 400;
+    z-index: 0;
+    scale: 0.7;
+    width: max-content;
+  }
+
+  .btn:hover,
+  .btn:active {
+    background: transparent;
+    box-shadow: none;
+    scale: 0.8;
+  }
+}
+
+@media screen and (max-width: 859px) {
+  .btn {
+    display: none;
+  }
+
+  .textContent {
+    padding-inline: 29px;
+  }
+}
+
+@media screen and (max-width: 431px) {
+  .textContent {
+    height: 100%;
+    top: auto;
+    justify-content: center;
+  }
+}

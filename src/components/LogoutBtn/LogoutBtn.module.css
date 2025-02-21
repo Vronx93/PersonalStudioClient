@@ -1,0 +1,15 @@
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+  background: rgba(217, 217, 217, 0.4);
+  color: rgba(26, 26, 26, 1);
+  text-wrap: nowrap;
+  padding-inline: 3rem;
+}
+
+.btn:hover {
+  background: rgba(217, 217, 217, 1);
+}

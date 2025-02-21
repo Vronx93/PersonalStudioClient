@@ -1,0 +1,8 @@
+@import "../../variables.css";
+
+.shopWrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

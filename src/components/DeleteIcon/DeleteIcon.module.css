@@ -1,0 +1,39 @@
+.trashIcon {
+  height: 24px;
+  width: fit-content;
+}
+
+.trashIcon:hover {
+  cursor: pointer;
+}
+
+.dialog[open] {
+  align-self: center;
+  justify-self: center;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 75px 70px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px -10px #cb4e32;
+}
+
+.dialogButtonsWrapper {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dialogBtn {
+  background: transparent;
+  border: 1px solid #cb4e32;
+  color: #cb4e32;
+  width: 100%;
+}
+
+.dialogBtn:hover {
+  background: #cb4e32;
+  color: white;
+}

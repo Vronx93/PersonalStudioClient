@@ -1,0 +1,44 @@
+.container {
+  position: relative;
+  padding-inline: 5.7%;
+  padding-block: 7rem;
+  max-width: 1000px;
+  border-bottom: 1px solid rgba(238, 196, 187, 1);
+}
+
+.container:last-of-type {
+  border: none;
+}
+
+.title {
+  font-family: "Open Sans";
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: normal;
+  color: rgba(26, 26, 26, 1);
+  min-width: auto;
+}
+
+.list {
+  list-style: none;
+  margin-top: 4rem;
+}
+
+.exerciseBackground {
+  position: absolute;
+  right: -496px;
+  top: 1rem;
+  z-index: -1;
+}
+
+@media screen and (max-width: 1119px) {
+  .container {
+    padding-block: 4rem;
+  }
+
+  .title {
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-weight: 800;
+  }
+}

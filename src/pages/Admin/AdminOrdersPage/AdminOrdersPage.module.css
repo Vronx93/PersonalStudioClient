@@ -1,0 +1,17 @@
+.resetFiltersButton {
+	background: white;
+	border: 1px solid #cb4e32;
+	color: #cb4e32;
+	cursor: pointer;
+	transition: 0.3s;
+	font-size: 14px;
+}
+
+.resetFiltersButton:hover {
+	color: white;
+}
+
+.active {
+	background: #cb4e32;
+	color: white;
+}

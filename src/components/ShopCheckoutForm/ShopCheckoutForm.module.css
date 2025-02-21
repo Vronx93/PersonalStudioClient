@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  width: 100%;
+  margin-top: 97px;
+}
+
+.title {
+  display: flex;
+  font-family: "Work Sans";
+  font-size: 32px;
+  font-weight: 700;
+  margin-top: 100px;
+  padding-left: 5.7%;
+}
+
+.greyText {
+  font-family: "Work Sans";
+  color: rgba(90, 106, 118, 1);
+  margin-top: 16px;
+  padding-left: 5.7%;
+}
+
+.leftSide {
+  width: 100%;
+}
+
+@media screen and (max-width: 1139px) {
+  .container {
+    display: grid;
+    max-width: 100%;
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+  .leftSide {
+    padding-right: 5.7%;
+  }
+
+  .title {
+    margin-top: 60px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .greyText {
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 12px;
+  }
+}

@@ -1,0 +1,82 @@
+.container {
+  padding-left: 5.7%;
+  margin-top: 80px;
+  padding-bottom: 120px;
+}
+
+.inputsWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10%;
+  padding-top: 40px;
+}
+
+.inputsWrapper input {
+  width: 100%;
+}
+
+.greyText {
+  color: rgba(90, 106, 118, 1);
+  margin-top: 16px;
+}
+
+.orangeStar {
+  font-family: "Work Sans";
+  font-size: 20px;
+  font-weight: 600;
+  color: rgba(189, 18, 18, 1);
+}
+
+.addressNumbersWrapper {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  gap: 21%;
+}
+
+.inputAddressNumber {
+  display: flex;
+  flex-direction: column;
+  height: 88px;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 759px) {
+  .container {
+    margin-top: 40px;
+  }
+
+  .title {
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .greyText {
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .orangeStar {
+    font-size: 14px;
+    font-weight: 600;
+  }
+}
+
+@media screen and (max-width: 559px) {
+  .container {
+    padding-bottom: 0;
+  }
+
+  .inputsWrapper {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding-top: 63px;
+  }
+
+  .addressNumbersWrapper {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+}

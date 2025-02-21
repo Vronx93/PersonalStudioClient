@@ -1,0 +1,48 @@
+{
+    "title": "Polityka prywatności",
+    "sections": [
+      {
+        "id": "intro",
+        "title": "Wprowadzenie",
+        "content": [
+          "Witamy na naszej stronie internetowej studia treningowego kalisteniki. Dbamy o Twoją prywatność i zobowiązujemy się do ochrony Twoich danych osobowych. Niniejsza Polityka Prywatności określa sposób, w jaki zbieramy, używamy i chronimy Twoje informacje podczas odwiedzania naszej strony oraz dokonywania zakupów."
+        ]
+      },
+      {
+        "id": "dataCollection",
+        "title": "Zbieranie danych",
+        "content": [
+          "Zbieramy dane osobowe od Ciebie podczas dokonywania zakupów przedmiotów lub planów treningowych na naszej stronie. Rodzaje danych, które zbieramy, obejmują:- Imię i nazwisko,- Adres e-mail,- Numer telefonu,- Adres dostawy,- Informacje o płatności"
+        ]
+      },
+      {
+        "id": "useOfData",
+        "title": "Wykorzystanie danych",
+        "content": [
+          "Twoje dane osobowe wykorzystujemy w celach następujących:- Realizacja zamówień, - Przetwarzanie płatności, - Obsługa klienta, - Śledzenie zamówień"
+        ]
+      },
+      {
+        "id": "paymentProcessing",
+        "title": "Przetwarzanie płatności",
+        "content": [
+          "Do przetwarzania płatności korzystamy z systemu PayU. Podczas dokonywania zakupu Twoje dane płatnicze są bezpiecznie przesyłane do PayU. PayU jest odpowiedzialne za zarządzanie i przetwarzanie Twoich danych płatniczych zgodnie ze swoimi własnymi politykami prywatności."
+        ]
+      },
+      {
+        "id": "security",
+        "title": "Bezpieczeństwo danych",
+        "content": [
+          "Dbamy o bezpieczeństwo Twoich danych osobowych poprzez stosowanie odpowiednich środków technicznych i organizacyjnych, aby chronić je przed nieautoryzowanym dostępem, utratą czy nieuprawnionym ujawnieniem."
+        ]
+      },
+      {
+        "id": "contact",
+        "title": "Kontakt",
+        "content": [
+          "Jeśli masz pytania dotyczące naszej Polityki Prywatności lub chciałbyś skorzystać z swoich praw związanych z ochroną danych osobowych, prosimy o kontakt za pośrednictwem danych podanych na stronie kontaktowej."
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,43 @@
+.imageInputWrapper {
+  display: grid;
+  grid-template-rows: 1fr 5fr;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  gap: 20px;
+  font-family: "Work Sans";
+  font-size: 20px;
+  font-weight: 600;
+  min-width: auto;
+  width: fit-content;
+}
+
+.imageInputWrapper label {
+  cursor: pointer;
+  min-width: max-content;
+}
+
+.hidden {
+  display: none;
+}
+
+.plusContainer {
+  padding: 42px;
+  background: rgba(215, 234, 249, 1);
+  border-radius: 10px;
+}
+
+.deleteImg {
+  position: absolute;
+  top: 0;
+  right: -70px;
+}
+
+.imgContainer {
+  position: relative;
+  width: 200px;
+}
+
+.img {
+  width: 100%;
+}

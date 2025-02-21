@@ -1,0 +1,102 @@
+@import "../../variables.css";
+
+.container {
+  margin-top: 184px;
+}
+
+.listElements {
+  padding-inline: 82px;
+  padding-top: 75px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 100px;
+  min-width: max-content;
+  max-width: 430px;
+}
+
+.benefitsContainer {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.coachBackground {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.coachImg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 236px;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 36px;
+}
+
+.weightBackground {
+  position: absolute;
+  right: 114px;
+  top: -197px;
+}
+
+@media screen and (max-width: 1119px) {
+  .container {
+    margin-top: 100px;
+  }
+
+  .title {
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 700;
+    min-width: auto;
+    text-wrap: wrap;
+    text-align: center;
+    padding-inline: 20px;
+  }
+
+  .header {
+    gap: 20px;
+    padding-inline: 20px;
+  }
+
+  .weightBackground {
+    display: none;
+  }
+
+  .benefitListForSmallDevice {
+    padding-inline: 7.4%;
+    margin-top: 65px;
+  }
+
+  .smallDeviceBenefitTitle {
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 700;
+    color: rgba(203, 78, 50, 1);
+  }
+
+  .smallDeviceBenefitDropdown {
+    list-style: none;
+    font-family: "Work Sans";
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 22px;
+  }
+
+  .btn {
+    width: 85svw;
+    max-width: 500px;
+    margin-top: 50px;
+  }
+}

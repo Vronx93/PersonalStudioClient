@@ -1,0 +1,52 @@
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding-left: 5.7%;
+}
+
+.emptyCart {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+  list-style: none;
+}
+
+.cartTitle {
+  font-family: "Work Sans";
+  font-size: 32px;
+  text-align: left;
+}
+
+.numberOfItems {
+  color: rgba(203, 78, 50, 1);
+}
+
+@media screen and (max-width: 1119px) {
+  .container {
+    z-index: 1;
+  }
+}
+
+@media screen and (max-width: 759px) {
+  .header {
+    display: flex;
+    gap: 13px;
+  }
+
+  .backBtn:hover {
+    cursor: pointer;
+  }
+
+  .cartTitle {
+    font-size: 20px;
+    font-weight: 600;
+  }
+}

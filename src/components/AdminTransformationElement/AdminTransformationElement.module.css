@@ -1,0 +1,48 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 0fr;
+  width: 100%;
+  padding-block: 2rem;
+  padding-inline: 1rem;
+  border-bottom: 1px solid rgba(153, 153, 153, 1);
+}
+
+.container:hover {
+  background: rgba(249, 230, 226, 1);
+}
+
+.img {
+  height: 93px;
+}
+
+.title {
+  font-family: "Work Sans";
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.text {
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.textContent {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: space-between;
+}
+
+.weightAndAgeWrapper {
+  display: flex;
+  gap: 2rem;
+}
+
+.delete {
+  align-self: center;
+}
+
+.imagesWrapper {
+  display: flex;
+}

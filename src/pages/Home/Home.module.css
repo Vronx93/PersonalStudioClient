@@ -1,0 +1,16 @@
+.contactInfoContainer {
+  margin-top: 213px;
+  margin-bottom: 58px;
+}
+
+@media screen and (max-width: 1119px) {
+  .contactInfoContainer {
+    margin-top: 91px;
+  }
+}
+
+@media screen and (max-width: 559px) {
+  .contactInfoContainer {
+    margin-bottom: 32px;
+  }
+}

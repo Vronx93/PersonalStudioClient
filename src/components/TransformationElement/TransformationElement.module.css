@@ -1,0 +1,136 @@
+.container {
+  background: rgba(252, 244, 243, 1);
+  border-radius: 30px;
+  transition: 0.5s;
+  width: fit-content;
+}
+
+.container:hover {
+  scale: 1.05;
+}
+
+.imagesWrapper {
+  position: relative;
+  display: flex;
+  gap: 2px;
+}
+
+.imgWrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 344px;
+  clip-path: border-box;
+  width: 205px;
+}
+
+.radiusLeftTop {
+  border-radius: 30px 0 0 0;
+}
+
+.radiusRightTop {
+  border-radius: 0 30px 0 0;
+}
+
+.imgBefore {
+  border-radius: 30px 0 0 0;
+  height: 100%;
+}
+
+.imgAfter {
+  border-radius: 0 30px 0 0;
+  height: 100%;
+}
+
+.textContentWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  background: #fcf4f3;
+  color: #838f98;
+  padding: 20px 32px 31px 32px;
+  border-radius: 0 0 30px 30px;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.08);
+}
+
+.right {
+  display: flex;
+  align-items: center;
+}
+
+.right p {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  font-family: "Work Sans";
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(131, 143, 152, 1);
+}
+
+.age {
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(131, 143, 152, 1);
+}
+
+.name {
+  font-family: "Work Sans";
+  font-size: 20px;
+  font-weight: 500;
+  color: rgba(30, 30, 30, 1);
+}
+
+.weight {
+  font-family: "Work Sans";
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(30, 30, 30, 1);
+}
+
+@media screen and (max-width: 1119px) {
+  .name {
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  .weight {
+    font-size: 11px;
+    font-weight: 400;
+  }
+
+  .right p {
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 1119px) {
+  .imgWrapper {
+    height: 280px;
+    width: 158px;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .imgWrapper {
+    height: 233px;
+    width: 132px;
+  }
+}
+
+@media screen and (max-width: 739px) {
+  .imgWrapper {
+    height: 280px;
+    width: 158px;
+  }
+}
+
+@media screen and (max-width: 409px) {
+  .imgWrapper {
+    height: 233px;
+    width: 132px;
+  }
+}

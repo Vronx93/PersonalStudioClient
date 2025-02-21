@@ -1,0 +1,78 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 44px 3% 34px 6%;
+  cursor: pointer;
+}
+
+.rightWrapper {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.leftWrapper {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.radioBox {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 1px solid rgba(131, 143, 152, 1);
+}
+
+.radioChecked {
+  width: 16px;
+  height: 16px;
+  color: rgba(131, 143, 152, 1);
+  background: rgba(131, 143, 152, 1);
+  border-radius: 50%;
+}
+
+.text {
+  font-family: "Work Sans";
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(51, 51, 51, 1);
+}
+
+.hidden {
+  display: none;
+}
+
+@media screen and (max-width: 759px) {
+  .container:first-of-type {
+    padding-top: 32px;
+    padding-bottom: 25px;
+  }
+
+  .container:last-of-type {
+    padding-top: 25px;
+    padding-bottom: 32px;
+  }
+
+  .text {
+    font-size: 14px;
+  }
+
+  .radioBox {
+    width: 18px;
+    height: 18px;
+  }
+
+  .radioChecked {
+    width: 12px;
+    height: 12px;
+    color: rgba(131, 143, 152, 1);
+    background: rgba(131, 143, 152, 1);
+    border-radius: 50%;
+  }
+}

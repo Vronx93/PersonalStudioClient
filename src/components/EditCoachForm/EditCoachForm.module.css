@@ -1,0 +1,86 @@
+.hidden {
+  display: none;
+}
+
+.button {
+  border: 1px solid black;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.container {
+  margin-block: 70px;
+}
+
+.form {
+  display: grid;
+  padding-inline: 10%;
+  gap: 20px;
+  align-items: center;
+}
+
+.form > * {
+  min-width: 100%;
+}
+
+.imagesList {
+  display: flex;
+  align-items: baseline;
+  max-width: 100%;
+  overflow-x: scroll;
+  gap: 10px;
+  list-style: none;
+}
+
+.listImg {
+  height: 132px;
+}
+
+.imagesListItem {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+.primaryImgInput {
+  justify-content: start;
+}
+
+.sizes {
+  display: grid;
+  gap: 10px;
+  width: 100%;
+  list-style: none;
+}
+
+.sizes li {
+  display: flex;
+  gap: 2%;
+}
+
+.addMultipleImgBtn {
+  padding: 25px;
+  background: rgba(215, 234, 249, 1);
+  border-radius: 10px;
+  min-width: auto;
+  width: fit-content;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.label {
+  font-family: "Work Sans";
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 54px;
+  margin-bottom: 20px;
+}
+
+.plusImg {
+  width: 83px;
+}
+
+.container textarea,
+.container input {
+  height: auto;
+}

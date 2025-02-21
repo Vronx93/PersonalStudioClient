@@ -1,0 +1,6 @@
+.container {
+  display: grid;
+  list-style: none;
+  padding-inline: 10%;
+  margin-top: 3.5rem;
+}

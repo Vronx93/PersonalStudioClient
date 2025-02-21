@@ -1,0 +1,42 @@
+/* .container {
+  list-style: none;
+} */
+
+.container {
+  border-collapse: collapse;
+  margin: 2rem;
+  text-align: center;
+}
+
+.container th {
+  font-family: "Work Sans";
+  font-size: 20px;
+  font-weight: 500;
+  border: 1px solid rgba(217, 217, 217, 0.84);
+  padding: 1rem;
+}
+
+.container th {
+  border-top: 0;
+}
+
+.container th:first-of-type {
+  border-left: 0;
+}
+
+.container th:last-of-type {
+  border-right: 0;
+}
+
+.container tr td:first-child {
+  border-left: 0;
+  text-align: left;
+  padding-left: 2rem;
+}
+
+.container tr:last-child td {
+  border-bottom: 0;
+}
+.container tr td:last-child {
+  border-right: 0;
+}

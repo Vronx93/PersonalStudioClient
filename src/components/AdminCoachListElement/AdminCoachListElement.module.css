@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-block: 50px;
+  padding-inline: 20px;
+  border-bottom: 1px solid rgba(153, 153, 153, 1);
+}
+
+.container:hover {
+  background: rgba(249, 230, 226, 1);
+}
+
+.title {
+  font-family: "Work Sans";
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.img {
+  height: 93px;
+}
+
+.actionIcons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}

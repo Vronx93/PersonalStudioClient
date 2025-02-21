@@ -1,0 +1,223 @@
+@import "../../variables.css";
+
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 729px;
+  width: 100%;
+  margin-top: 69px;
+}
+
+.container p {
+  margin-top: 65px;
+  margin-bottom: 41px;
+  z-index: 2;
+}
+
+.container h2 {
+  z-index: 2;
+}
+
+.container a {
+  z-index: 2;
+}
+
+.onlineWrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  height: 100%;
+  width: 50%;
+}
+
+.liveWrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  height: 100%;
+  width: 50%;
+}
+
+.liveWrapper p {
+  margin-top: 20px;
+}
+
+.whatsApp {
+  position: absolute;
+  right: 52%;
+  top: 132px;
+  width: 150px;
+  height: 150px;
+}
+
+.handstand {
+  position: absolute;
+  left: 56px;
+  bottom: 68px;
+  width: 107px;
+  height: 328px;
+}
+
+.topWaves {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.bottomWaves {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.contentWrapper {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background: rgba(254, 240, 224, 1);
+}
+
+.rightBackground {
+  position: absolute;
+  width: 59%;
+  height: 100%;
+  top: 0;
+  right: 0;
+}
+
+.fancyText {
+  margin-top: 16px;
+  z-index: 2;
+}
+
+.body {
+  position: absolute;
+  bottom: 59px;
+  right: 0;
+  width: 266px;
+  height: 266px;
+}
+
+@media screen and (max-width: 1119px) {
+  .container {
+    height: 500px;
+  }
+
+  .title {
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .fancyText {
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .whatsApp {
+    top: 71px;
+    width: 100px;
+    height: 100px;
+  }
+
+  .liveWrapper a,
+  .onlineWrapper a {
+    max-width: max-content;
+  }
+}
+
+@media screen and (max-width: 819px) {
+  .container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background: rgba(254, 240, 224, 1);
+    height: 897px;
+  }
+
+  .topWaves {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  .bottomWaves {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  .topArticle {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 132px;
+    padding-bottom: 76px;
+  }
+
+  .container p {
+    margin-top: 32px;
+    margin-bottom: 40px;
+    z-index: 2;
+  }
+
+  .btn {
+    width: 85vw;
+  }
+
+  .textContentTopContainer {
+    padding-inline: 20%;
+  }
+
+  .whatsApp {
+    right: -5px;
+    top: -21px;
+    width: 48px;
+    height: 48px;
+  }
+
+  .title {
+    position: relative;
+  }
+
+  .bottomArticle {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 132px;
+    padding-bottom: 122px;
+  }
+
+  .bottomMobileBackground {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+
+  .handstand {
+    width: 37px;
+    height: 113px;
+    display: none;
+  }
+
+  .body {
+    height: 95px;
+    width: 95px;
+    bottom: 250px;
+    right: 10px;
+  }
+}
+
+@media screen and (max-width: 459px) {
+  .whatsApp {
+    right: -55px;
+  }
+}

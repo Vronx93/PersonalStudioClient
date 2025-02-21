@@ -1,0 +1,59 @@
+@import "../../variables.css";
+
+.container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: min-content;
+  justify-self: center;
+}
+
+.cart {
+  width: 24px;
+  height: 24px;
+  z-index: 5;
+}
+
+.iconWrapper {
+  position: relative;
+  cursor: pointer;
+}
+
+.numberOfItems {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(203, 78, 50, 1);
+  color: rgba(255, 255, 255, 1);
+  bottom: 4px;
+  right: -2px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  font-family: "Work Sans";
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.closeImg {
+  position: relative;
+  padding: 20px;
+  background: rgba(254, 251, 251, 1);
+  border-radius: 10px;
+  z-index: 5;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1019px) {
+  .container {
+    padding: 20px;
+    justify-self: unset;
+    width: auto;
+  }
+
+  .closeImg {
+    padding: 20px;
+    margin-right: -29px;
+  }
+}

@@ -1,0 +1,92 @@
+@import "../../variables.css";
+
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 16px;
+  width: 100%;
+  height: 376px;
+  padding-block: 140px;
+  background: rgba(254, 251, 251, 1);
+  z-index: 1;
+}
+
+.textWrapper {
+  max-width: 600px;
+}
+
+.container h1 {
+  position: relative;
+  letter-spacing: normal;
+  z-index: 3;
+}
+
+.textWrapper p {
+  font-family: "Work Sans";
+  position: relative;
+  font-size: 16px;
+  font-weight: 400;
+  z-index: 3;
+}
+
+.imageLeft {
+  position: absolute;
+  left: 2.3%;
+  bottom: 33px;
+  z-index: 2;
+}
+
+.title {
+  font-family: "Open Sans";
+  min-width: auto;
+}
+
+.imageRight {
+  position: absolute;
+  right: -15px;
+  bottom: -20px;
+  z-index: 2;
+}
+
+@media screen and (max-width: 1119px) {
+  .container {
+    gap: 24px;
+    padding-inline: 20px;
+    padding-top: 132px;
+    padding-bottom: 85px;
+    box-shadow: none;
+  }
+
+  .title {
+    font-size: 24px;
+    font-weight: 700;
+    min-width: auto;
+  }
+
+  .textWrapper {
+    max-width: 450px;
+  }
+
+  .textWrapper p {
+    font-size: 13px;
+    font-weight: 400;
+  }
+
+  .imageRight {
+    width: 200px;
+  }
+
+  .imageLeft {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 689px) {
+  .imageRight {
+    display: none;
+  }
+}

@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  z-index: 5;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: rgba(26, 26, 26, 1);
+}
+
+.navbar a::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 6px;
+  border-radius: 3px;
+  transition: 0.3s;
+}
+
+.navbar a:hover::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 6px;
+  background: #a9412a;
+  border-radius: 3px;
+}
+
+.offer {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 2fr 1fr;
+  color: rgba(26, 26, 26, 1);
+  cursor: pointer;
+}
+
+.offerActive img {
+  rotate: 180deg;
+}
+
+.addtionalMarginTop {
+  margin-top: 376px;
+}

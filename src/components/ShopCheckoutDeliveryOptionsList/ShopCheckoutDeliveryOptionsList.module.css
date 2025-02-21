@@ -1,0 +1,22 @@
+.container {
+  margin-left: 5.7%;
+  margin-top: 100px;
+}
+
+.list {
+  background: rgba(255, 252, 252, 1);
+  border-radius: 10px;
+  border: 1px solid rgba(217, 217, 217, 0.84);
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 759px) {
+  .container {
+    margin-top: 40px;
+  }
+
+  .title {
+    font-size: 16px;
+    font-weight: 600;
+  }
+}

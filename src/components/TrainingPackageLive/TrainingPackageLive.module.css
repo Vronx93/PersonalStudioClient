@@ -1,0 +1,80 @@
+@import "../../variables.css";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.buttonWrapper {
+  display: grid;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 48px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.title {
+  font-family: "Open Sans";
+  font-size: 36px;
+}
+
+.title2 {
+  color: rgba(203, 78, 50, 1);
+}
+
+.text {
+  font-family: "Work Sans";
+  font-size: 16px;
+  margin-top: 16px;
+  padding-inline: 70px;
+}
+
+.fancy {
+  font-size: 24px;
+  font-weight: 700;
+  color: rgba(229, 166, 152, 1);
+  margin-top: 24px;
+  min-width: fit-content;
+}
+
+.listWrapper {
+  padding-inline: 14%;
+}
+
+@media screen and (max-width: 1119px) {
+  .title {
+    font-size: 20px;
+    font-weight: 700;
+    min-width: auto;
+  }
+
+  .title2 {
+    font-size: 14px;
+    min-width: auto;
+  }
+
+  .text {
+    font-size: 13px;
+    font-weight: 400;
+    padding-inline: 40px;
+  }
+
+  .btn {
+    width: 82.5%;
+  }
+
+  .fancy {
+    font-size: 14px;
+    font-weight: 700;
+    min-width: auto;
+  }
+}

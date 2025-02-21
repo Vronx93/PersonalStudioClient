@@ -1,0 +1,52 @@
+@import "../../variables.css";
+
+.container {
+  margin-top: 169px;
+  padding-inline: 6%;
+}
+
+.header {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.title {
+  font-family: "Open Sans";
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 200px;
+  margin-top: 169px;
+}
+
+@media screen and (max-width: 1119px) {
+  .title {
+    font-size: 20px;
+    font-weight: 700;
+    min-width: auto;
+  }
+
+  .container {
+    margin-top: 128px;
+    padding-inline: 0;
+  }
+
+  .list {
+    gap: 100px;
+    margin-top: 45px;
+  }
+}
+
+@media screen and (max-width: 589px) {
+  .container {
+    margin-top: 116px;
+    padding-inline: 0;
+  }
+
+  .list {
+    margin-top: 27px;
+  }
+}

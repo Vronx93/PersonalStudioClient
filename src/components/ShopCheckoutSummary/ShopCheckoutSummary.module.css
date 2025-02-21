@@ -1,0 +1,168 @@
+.container {
+  position: sticky;
+  margin-left: 15%;
+  top: 200px;
+  right: 5.7%;
+  height: fit-content;
+}
+
+.title {
+  font-family: "Work Sans";
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.text {
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.greyText {
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(49, 69, 84, 1);
+}
+
+.listItem {
+  display: flex;
+  justify-content: space-between;
+}
+
+.priceDetailsWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 80px;
+  list-style: none;
+  padding-bottom: 48px;
+  border-bottom: 1px solid rgba(238, 196, 187, 1);
+}
+
+.smallPrice {
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(203, 78, 50, 1);
+}
+
+.smallCurrency {
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(26, 26, 26, 1);
+}
+
+.totalPriceWrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 48px;
+}
+
+.totalPrice {
+  font-family: "Work Sans";
+  font-size: 24px;
+  font-weight: 600;
+  color: rgba(203, 78, 50, 1);
+}
+
+.bigCurrency {
+  font-family: "Work Sans";
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.btn {
+  width: 100%;
+  margin-top: 48px;
+  font-family: "Work Sans";
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.bottomTextWrapper {
+  display: flex;
+  gap: 16px;
+  margin-top: 60px;
+}
+
+.clockImg {
+  width: 24px;
+  height: 24px;
+}
+
+@media screen and (max-width: 1139px) {
+  .container {
+    position: relative;
+    height: fit-content;
+    justify-self: center;
+    width: 100svw;
+    max-width: 760px;
+    margin-top: 85px;
+    box-shadow: 0px -4px 10px 0px rgba(0, 0, 0, 0.05);
+    border-radius: 20px 20px 20px 20px;
+    padding: 32px 29px 50px 29px;
+    margin-left: 0;
+    top: 0;
+    right: 0;
+  }
+
+  .mobileHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+
+  .title {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .text {
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .btn {
+    margin-top: 24px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .backToShopBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-block: 17px;
+    text-decoration: none;
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(26, 26, 26, 1);
+    margin-top: 24px;
+  }
+
+  .backArrow {
+    transform: rotate(180deg);
+  }
+
+  .arrowUp {
+    transition: 0.3s;
+  }
+
+  .rotateArrowUp {
+    transform: rotate(180deg);
+    transition: 0.3s;
+  }
+}
+
+@media screen and (max-width: 759px) {
+  .container {
+    border-radius: 20px 20px 0 0;
+    margin-top: 48px;
+  }
+}

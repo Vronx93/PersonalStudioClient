@@ -1,0 +1,128 @@
+@import "../../variables.css";
+
+.container {
+  position: relative;
+  margin-top: 170px;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  list-style: none;
+  gap: 136px;
+}
+
+.title {
+  font-family: "Open Sans";
+}
+
+.list > li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 34vw;
+  margin-bottom: 48px;
+}
+
+.article p {
+  display: flex;
+  text-align: center;
+}
+
+.phoneList {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 550px;
+}
+
+.phoneList li {
+  display: flex;
+  align-items: center;
+  min-width: fit-content;
+  gap: 5%;
+}
+
+.phoneList > li > p {
+  min-width: fit-content;
+}
+
+.phoneList > li > img {
+  width: 24px;
+  height: 24px;
+}
+
+.exerciseBackground {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  z-index: -1;
+}
+
+.text {
+  font-family: "Work Sans";
+  max-width: 590px;
+}
+
+.phoneNumber {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 11px;
+  text-decoration: none;
+  color: rgba(30, 30, 30, 1);
+}
+
+@media screen and (max-width: 1119px) {
+  .container {
+    margin-top: 100px;
+  }
+
+  .list {
+    gap: 80px;
+  }
+
+  .title {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .article {
+    margin-bottom: 32px;
+  }
+
+  .text {
+    font-size: 13px;
+    font-weight: 400;
+  }
+
+  .phoneNumber {
+    gap: 6px;
+  }
+}
+
+@media screen and (max-width: 859px) {
+  .phoneList {
+    flex-direction: column;
+    gap: 32px;
+    width: 100%;
+    max-width: 550px;
+  }
+
+  .exerciseBackground {
+    display: none;
+  }
+
+  .article {
+    width: 60vw;
+  }
+}

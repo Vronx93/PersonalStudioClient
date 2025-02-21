@@ -1,0 +1,51 @@
+@keyframes slideIn {
+  0% {
+    transform: scaleY(0);
+  }
+  50% {
+    transform: scaleY(1.1);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+
+.container {
+  margin-bottom: 32px;
+  border-bottom: 2px solid rgba(238, 196, 187, 1);
+  padding-bottom: 32px;
+}
+
+.smallTitle {
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 16px;
+  color: rgba(26, 26, 26, 1);
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  padding-left: 32px;
+  animation: slideIn 0.5s forwards;
+}
+
+.titleWithArrow {
+  font-size: 16px;
+  display: grid;
+  grid-template-columns: 16fr 1fr;
+  cursor: pointer;
+}
+
+.arrowUp {
+  rotate: 180deg;
+  transition: 0.2s;
+}
+
+.arrowDown {
+  transition: 0.2s;
+}

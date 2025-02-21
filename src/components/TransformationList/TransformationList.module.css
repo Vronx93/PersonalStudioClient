@@ -1,0 +1,19 @@
+@import "../../../node_modules/swiper/swiper.css";
+
+.exerciseBackground {
+  position: absolute;
+  bottom: -180px;
+  left: 19.4%;
+  z-index: 2;
+}
+
+.swiper {
+  overflow: visible;
+  margin-top: 3rem;
+}
+
+.slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

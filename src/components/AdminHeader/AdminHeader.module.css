@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  align-items: center;
+  text-align: start;
+  gap: 15px;
+  height: 124px;
+  background: rgba(254, 251, 251, 1);
+  box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.1);
+  padding-left: 112px;
+}
+
+.title {
+  font-family: "Open Sans";
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: normal;
+}
+
+.span {
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 700;
+  color: rgba(40, 143, 221, 1);
+}

@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(244, 244, 244, 1);
+  transform: skewX(-10deg);
+  height: 171px;
+}
+
+.icon {
+  width: 75px;
+  transform: skewX(10deg);
+  margin-bottom: 8px;
+}
+
+.title {
+  font-family: "Work Sans";
+  transform: skewX(10deg);
+}
+
+@media screen and (max-width: 1119px) {
+  .title {
+    font-size: 16px;
+    font-weight: 600;
+  }
+}
+
+@media screen and (max-width: 759px) {
+  .container {
+    transform: skewY(5deg);
+  }
+
+  .container * {
+    transform: skewY(-5deg);
+  }
+}

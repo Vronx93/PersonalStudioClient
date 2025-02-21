@@ -1,0 +1,57 @@
+@import "../../variables.css";
+
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 58px;
+}
+
+.tricepsBackground {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.title {
+  font-family: "Open Sans";
+}
+
+.list {
+  padding: 0 25% 0 10%;
+}
+
+@media screen and (max-width: 1119px) {
+  .container {
+    margin-top: 32px;
+  }
+
+  .title {
+    font-size: 24px;
+    font-weight: 700;
+    min-width: auto;
+  }
+}
+
+@media screen and (max-width: 959px) {
+  .list {
+    margin-top: 64px;
+  }
+}
+
+@media screen and (max-width: 589px) {
+  .tricepsBackground {
+    display: none;
+  }
+
+  .list {
+    padding-left: 0;
+    padding-right: 5%;
+  }
+
+  .title {
+    text-align: center;
+    padding-inline: 5%;
+  }
+}
