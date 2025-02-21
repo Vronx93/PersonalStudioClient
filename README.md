@@ -8,19 +8,19 @@
 ## ⚙️ Setup  
 
 1. Clone the repository:  
-   ```bash
-   git clone https://github.com/your-username/PersonalStudio-frontend.git  
-   cd PersonalStudio-frontend  
-  ```
+```bash
+  git clone https://github.com/your-username/PersonalStudio-frontend.git  
+  cd PersonalStudio-frontend  
+```
 
 2. Install dependencies:
 ```bash
-npm install  
+  npm install  
 ```
 
 3. Start the development server:
 ```bash
-npm run dev
+  npm run dev
 ```
 
 ⚠️ **Note: The frontend requires the backend to function properly.**
